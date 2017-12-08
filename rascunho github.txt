@@ -1,0 +1,259 @@
+
+$ cd desktop/teste/
+$ touch index.html style.css
+$ git add .
+$ git commit .
+
+$ git log
+
+$ git status
+
+$ git checkout -b Irineu
+
+$ touch index.js
+
+$ git add index.js
+
+$ git commit -b "Index JavaScript"
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+
+
+
+
+
+                                    $ git commit -m 'Index JavaScript'
+
+                                    home@home-PC MINGW64 ~/desktop/teste (master)
+                                    $ git remote add origin https://github.com/Antonniomoura/home.git
+
+                                    $ git push -u origin master
+
+                                    $ git checkout irineu
+
+
+                                    $ git push -u origin Irineu
+                                    $ cd ..
+
+                                    home@home-PC MINGW64 ~/desktop
+                                    $ cd pasta/
+
+                                    home@home-PC MINGW64 ~/desktop/pasta
+                                    $ git init
+                                    Initialized empty Git repository in C:/Users/home/Desktop/pasta/.git/
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ https://github.com/Antonniomoura/home.git
+                                    bash: https://github.com/Antonniomoura/home.git: No such file or directory
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git remote add origin https://github.com/Antonniomoura/home.git
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git remote -v
+                                    origin  https://github.com/Antonniomoura/home.git (fetch)
+                                    origin  https://github.com/Antonniomoura/home.git (push)
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git pull origin master
+                                    remote: Counting objects: 3, done.
+                                    remote: Compressing objects: 100% (2/2), done.
+                                    remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+                                    Unpacking objects: 100% (3/3), done.
+                                    From https://github.com/Antonniomoura/home
+                                    * branch            master     -> FETCH_HEAD
+                                    * [new branch]      master     -> origin/master
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ ls
+                                    index.html  style.css
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git checkout Irineu
+                                    error: pathspec 'Irineu' did not match any file(s) known to git.
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git branch
+                                    * master
+
+                                    home@home-PC MINGW64 ~/desktop/pasta (master)
+                                    $ git branch -a
+                                    * master
+                                    remotes/origin/master
+
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (master)
+                                                                        $ git fetch --all
+                                                                        Fetching origin
+                                                                        remote: Counting objects: 2, done.
+                                                                        remote: Compressing objects: 100% (2/2), done.
+                                                                        remote: Total 2 (delta 0), reused 2 (delta 0), pack-reused 0
+                                                                        Unpacking objects: 100% (2/2), done.
+                                                                        From https://github.com/Antonniomoura/home
+                                                                        * [new branch]      Irineu     -> origin/Irineu
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (master)
+                                                                        $ git branch
+                                                                        * master
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (master)
+                                                                        $ git branch
+                                                                        * master
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (master)
+                                                                        $ git checkout Irineu
+                                                                        Switched to a new branch 'Irineu'
+                                                                        Branch 'Irineu' set up to track remote branch 'Irineu' from 'origin'.
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                        $ ls
+                                                                        index.html  index.js  style.css
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                        $ nano index.html
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                        $ nano index.html
+
+                                                                        home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                        $ git status
+                                                                        On branch Irineu
+                                                                        Your branch is up to date with 'origin/Irineu'.
+
+                                                                        Changes not staged for commit:
+                                                                        (use "git add <file>..." to update what will be committed)
+                                                                            (use "git checkout -- <file>..." to discard changes in working directory)
+
+                                                                                modified:   index.html
+
+                                                                                no changes added to commit (use "git add" and/or "git commit -a")
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git add .
+                                                                                warning: LF will be replaced by CRLF in index.html.
+                                                                                The file will have its original line endings in your working directory.
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git commit -m "Test commit"
+                                                                                [Irineu 14086fc] Test commit
+                                                                                1 file changed, 1 insertion(+)
+                                                                                g
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git push origin Irineu
+                                                                                Counting objects: 3, done.
+                                                                                Delta compression using up to 8 threads.
+                                                                                Compressing objects: 100% (2/2), done.
+                                                                                Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+                                                                                Total 3 (delta 0), reused 0 (delta 0)
+                                                                                To https://github.com/Antonniomoura/home.git
+                                                                                4efedbc..14086fc  Irineu -> Irineu
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git branch
+                                                                                * Irineu
+                                                                                master
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ touch irineu.txt
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git add .
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git commit -m "irineuuu"
+                                                                                [Irineu 7161977] irineuuu
+                                                                                1 file changed, 0 insertions(+), 0 deletions(-)
+                                                                                create mode 100644 irineu.txt
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git log
+                                                                                commit 716197701cce7374446090223eb753965be256e0 (HEAD -> Irineu)
+                                                                                Author: Antonniomoura <Antonniogt@gmail.com>
+                                                                                Date:   Thu Dec 7 00:35:31 2017 -0200
+
+                                                                                irineuuu
+
+                                                                                commit 14086fc222a72a7aac8d70812c12818062b761b6 (origin/Irineu)
+                                                                                Author: Antonniomoura <Antonniogt@gmail.com>
+                                                                                Date:   Thu Dec 7 00:33:24 2017 -0200
+
+                                                                                Test commit
+
+                                                                                commit 4efedbcbfeba0c820e38193dc756e70a6a2b8d9b
+                                                                                Author: Antonniomoura <Antonniogt@gmail.com>
+                                                                                Date:   Thu Dec 7 00:22:01 2017 -0200
+
+                                                                                Index JavaScript
+
+                                                                                commit d472f27c46c45c42dfe2fe1157821fdb624b0b0f (origin/master, master)
+                                                                                Author: Antonniomoura <Antonniogt@gmail.com>
+                                                                                Date:   Thu Dec 7 00:20:07 2017 -0200
+
+                                                                                Meu commit
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ git push
+                                                                                Counting objects: 2, done.
+                                                                                Delta compression using up to 8 threads.
+                                                                                Compressing objects: 100% (2/2), done.
+                                                                                Writing objects: 100% (2/2), 229 bytes | 229.00 KiB/s, done.
+                                                                                Total 2 (delta 1), reused 0 (delta 0)
+                                                                                remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+                                                                                To https://github.com/Antonniomoura/home.git
+                                                                                14086fc..7161977  Irineu -> Irineu
+
+                                                                                home@home-PC MINGW64 ~/desktop/pasta (Irineu)
+                                                                                $ cd ..
+
+                                                                                home@home-PC MINGW64 ~/desktop
+                                                                                $ cd teste/
+
+                                                                                home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                $ git brach
+                                                                                git: 'brach' is not a git command. See 'git --help'.
+
+                                                                                The most similar command is
+                                                                                branch
+
+                                                                                home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                $ git branch
+                                                                                Irineu
+                                                                                master
+
+                                                                                home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                $ git pull
+                                                                                remote: Counting objects: 5, done.
+                                                                                remote: Compressing objects: 100% (3/3), done.
+                                                                                remote: Total 5 (delta 1), reused 5 (delta 1), pack-reused 0
+                                                                                Unpacking objects: 100% (5/5), done.
+                                                                                From https://github.com/Antonniomoura/home
+                                                                                4efedbc..7161977  Irineu     -> origin/Irineu
+                                                                                There is no tracking information for the current branch.
+                                                                                Please specify which branch you want to merge with.
+                                                                                See git-pull(1) for details.
+
+                                                                                git pull <remote> <branch>
+
+                                                                                    If you wish to set tracking information for this branch you can do so with:
+
+                                                                                    git branch --set-upstream-to=origin/<branch> irineu
+
+
+                                                                                    home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                    $ git pull origin irineu
+                                                                                    fatal: Couldn't find remote ref irineu
+
+                                                                                    home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                    $ git pull origin Irineu
+                                                                                    From https://github.com/Antonniomoura/home
+                                                                                    * branch            Irineu     -> FETCH_HEAD
+                                                                                    Updating 4efedbc..7161977
+                                                                                    Fast-forward
+                                                                                    index.html | 1 +
+                                                                                    irineu.txt | 0
+                                                                                    2 files changed, 1 insertion(+)
+                                                                                    create mode 100644 irineu.txt
+
+                                                                                    home@home-PC MINGW64 ~/desktop/teste (irineu)
+                                                                                    $ git checkout -b bancodados

@@ -1,0 +1,3 @@
+$ git remote add origin https://github.com/Antonniomoura/home.git
+git pull origin master
+git fetch --all

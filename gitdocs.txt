@@ -1,0 +1,24 @@
+Criar pasta - mkdir namepaste
+git init - iniciar git
+Criar arquivo - touch name
+Git Status - Status dos arquivos
+Git Add - arquivo.txt - adcionar a fila
+Git status
+Git commit - m "Nome da Versão"
+git log ver todas as versões!!!
+
+:wq
+
+mais detalhes log: git log -p
+$ git log --pretty=format:"%h - %an, %ar : %s"
+$ git log --since=2.days ou $ git log --since=2.weeks, caso queiram saber as duas últimas semanas.
+
+git reset HEAD <file> pra voltar no ADD
+git checkout
+git reset HEAD ~ resetar o numero de versões
+git branch - ver o branch ataul
+$ git checkout -b nomebreach
+git checkout mundar master
+
+merge $ git merge funcionalidade1
+rebase  criação sem novo commit --- git rebase irineu
