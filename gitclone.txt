@@ -1,0 +1,4 @@
+$ git clone https://github.com/schoolofnetcom/git-code-education.git 
+ou $ git clone https://github.com/schoolofnetcom/git-code-education.git aulagit
+git branch -a
+git checkout -b irineu origin/irineu
